@@ -63,6 +63,17 @@ body::before {
   margin-bottom: 3rem;
 }
 
+.avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  opacity: 0;
+  animation: fadeUp 0.7s ease 0.1s both;
+  border: 2px solid var(--border);
+}
+
 .eyebrow {
   font-size: 0.75rem;
   font-weight: 500;
